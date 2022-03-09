@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 1em;
+}
+
+.cont_text > * {
+  margin-bottom: 1em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 1em;
+}
+
+ul li i {
+  color: green;
+}
